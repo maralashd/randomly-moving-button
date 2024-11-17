@@ -1,11 +1,11 @@
 const wrapper = document.querySelector(".wrapper");
-const question = document.querySelector(".question");
+const question = document.querySelector(".do you love marala");
 const gif = document.querySelector(".gif");
 const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "I love you too! 😘";
+  question.innerHTML = "I love you too sainzaya! 😘";
   gif.src =
     "https://media1.giphy.com/media/iCVzZwwE6QNAV2tEE0/giphy.gif";
 });
